@@ -1,0 +1,2 @@
+docker build -t my-nginx:latest .
+docker run --name my_nginx -d -p 8080:80 my-nginx
